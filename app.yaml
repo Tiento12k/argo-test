@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-demo
+  name: nginx-demo123
 spec:
   replicas: 1
   selector:
@@ -21,7 +21,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-demo-service
+  name: nginx-demo-service123
 spec:
   selector:
     app: nginx-demo
